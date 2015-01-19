@@ -42,7 +42,6 @@ run_analysis = function() {
  # set names of data frame
    names(tidyAll) <- varNames
 # group data by subject and activity and calculate means of variables
-  library(dplyr)
   tidyMean <- tidyAll %>% group_by(subjectNr, activityName) %>% 
 			summarise_each(funs(mean))
 
