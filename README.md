@@ -62,4 +62,3 @@ as the tidy dataset required.
 
 The result was saved with write.table() using row.name=FALSE 
 to the 'tidyMean.txt' file and uploaded to the repository too.
-This repository is for the course project of the online course Getting and Cleaning Data on Coursera.
