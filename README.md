@@ -8,6 +8,9 @@ processing check the course webpage on Coursera.
 In the following it is described how the the run_analysis.R script 
 works.
 
+To use the script type the following command, for example:
+` tidyDataset <- run_analysis()
+
 The file contains a function named run_analysis, which returns the 
 independent tidy data set with the average of each extracted variable 
 for each activity and each subject.
