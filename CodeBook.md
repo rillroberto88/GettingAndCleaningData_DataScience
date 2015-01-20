@@ -1,3 +1,16 @@
+This is a description of the tidy dataset created with the 
+run_analysis.R script.
+
+For details on how this data was created see README.md in 
+this repository.
+
+Below is the description of the variables (columns) of the 
+tidy dataset, which is grouped by subjectNr and actovityName. 
+All other variables here contain averages of the 
+corresponding measurements, so I won't mention this in every 
+single case. Also they are unitless, since the data that 
+was processed to obtain this tidy set was normalized beforehand.
+
 *subjectNr - subject number
 		   1..30 unique identifier for participating persons
 *activityName - name of activity performed
@@ -7,6 +20,17 @@
 			SITTING
 			STANDING
 			LAYING
+			
+For the rest of the variables I will not give a separate explanation for 
+every one of them, because their names speak for themselves. I don't 
+see any reason to expand the camelCase names into sentences that contain 
+the same information. 
+For example *timeBodyAcc_meanX* is the mean times of body acceleration 
+along the X axis. The variables come from measurements collected by the 
+accelerometers and gyroscopes attached to the subjects participating 
+in the experiment. For more information see the descriptions in the 
+'UCI HAR Dataset' folder. Below are the list of variable names after 
+processing the data as required:
 *timeBodyAcc_meanX
 *timeBodyAcc_meanY
 *timeBodyAcc_meanZ
