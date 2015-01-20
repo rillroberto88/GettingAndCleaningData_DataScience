@@ -26,9 +26,18 @@ every one of them, because their names speak for themselves. I don't
 see any reason to expand the camelCase names into sentences that contain 
 the same information. 
 For example *timeBodyAcc_meanX* is the mean times of body acceleration 
-along the X axis. The variables come from measurements collected by the 
+along the X axis. The variables are signals collected by the 
 accelerometers and gyroscopes attached to the subjects participating 
-in the experiment. For more information see the descriptions in the 
+in the experiment.
+
+The abbreviations present in the names are: 
+* std = standard deviation
+* Acc = accelerometer (means data collected by the accelerometer)
+* Gyro = gyroscope (data collected by the gyroscope)
+* Mag = magnitude
+* Jerk = Jerk signal; time rate of change of acceleration
+
+For more information about the original data see the descriptions in the 
 'UCI HAR Dataset' folder. Below are the list of variable names after 
 processing the data as required:
 * timeBodyAcc_meanX
